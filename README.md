@@ -16,6 +16,7 @@
 
 
 ## Issues
+* `graphql-dgs-platform-dependencies` version bigger than `5.1` causes problem with subscriptions - they stop coming after few responses
 * Websocket subscriptions don't work in GraphiQL but works in Playground
 * SSE subscriptions can be tested through postman/curl
 
