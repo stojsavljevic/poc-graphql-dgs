@@ -1,0 +1,19 @@
+type Query {
+    shows(titleFilter: String): [Show]
+}
+
+type Subscription {
+    showsSub: Show
+}
+
+type Show {
+    title: String
+    releaseYear: Int
+    author: Author
+}
+
+type Author {
+    name: String
+}
+
+
